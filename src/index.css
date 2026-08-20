@@ -1,0 +1,22 @@
+﻿@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+[dir="rtl"] {
+  font-family: 'Noto Nastaliq Urdu', 'Plus Jakarta Sans', sans-serif;
+}
+
+.medical-card-glow {
+  background: linear-gradient(135deg, #ffffff 0%, #f0fdfa 100%);
+  border: 1px solid #ccfbf1;
+  box-shadow: 0 10px 30px -10px rgba(13, 148, 136, 0.15);
+}
+
+.medical-badge-gradient {
+  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+}

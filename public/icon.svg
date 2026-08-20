@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="url(#grad)"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#115e59" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Medical Care Cross & Heart Symbol -->
+  <circle cx="256" cy="256" r="180" fill="white" fill-opacity="0.12" stroke="#2dd4bf" stroke-width="8"/>
+  <path d="M256 140 C210 90 120 120 120 200 C120 280 256 370 256 370 C256 370 392 280 392 200 C392 120 302 90 256 140 Z" fill="#14b8a6" filter="url(#shadow)"/>
+  <!-- Pure White Medical Cross inside Heart -->
+  <path d="M236 180 H276 V220 H316 V260 H276 V300 H236 V260 H196 V220 H236 Z" fill="white"/>
+</svg>

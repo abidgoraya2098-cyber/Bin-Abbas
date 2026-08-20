@@ -1,0 +1,17 @@
+{
+  "name": "Bin Abbas Home Care",
+  "short_name": "Home Care",
+  "description": "بن عباس ہوم کیئر سروسز - مریضوں اور بزرگوں کی نگہداشت",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f766e",
+  "theme_color": "#0d9488",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
